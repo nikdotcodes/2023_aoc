@@ -27,6 +27,7 @@ def part_1(data) -> int:
 
     return running_total
 
+
 def part_2(data):
     num_str_to_value = {
         "ONE": "O1NE",
@@ -66,6 +67,7 @@ def part_2(data):
         running_total += int(integer_str)
 
     return running_total
+
 
 ### Uncomment the lines below when your function passes the test!
 raw_data = get_data(day)
